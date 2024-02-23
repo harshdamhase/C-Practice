@@ -11,12 +11,21 @@ namespace ConsoleAppC_
         static void Main(string[] args)
         {
             int var = 10;
+            Console.WriteLine(var);
+
             String input="harshda";
-            long x = 12.5;
-double 
-            Console.WriteLine("Hello world" + var);
-            Console.Write(input);
-            Console.ReadLine();
+            Console.WriteLine(input);
+
+            bool great = true;
+            Console.WriteLine(great);
+
+            double y = 10.4;
+            Console.WriteLine(y);
+
+            char ch = 'x';
+            Console.WriteLine(ch);
+
+           Console.ReadLine();
         }
     }
 }
